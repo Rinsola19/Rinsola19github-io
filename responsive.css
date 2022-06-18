@@ -1,0 +1,100 @@
+body{
+    background-color:rgba(223, 140, 140, 0.774);
+    background-image:url("backk.png");
+}
+main{
+    margin: 25%;
+    width:50%;
+    height: 50%;
+    display:flex;
+}
+
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+}
+.learn{ width:450px;
+    height:400px;
+    text-align: center;
+    padding-top: 100px;
+}
+.header{
+    background-color: rgb(56, 5, 104);
+    margin:10px;
+    border-radius:5px;
+    padding-left:30px;
+    width:300px;
+    height:35px;
+    text-align: center;
+    
+}
+h2{
+    color:hsl(0,0%,95%);
+    font-weight: 700;
+    
+}
+p{ color:hsl(0,0%,95%);
+    font-size:15px;
+    font-weight:400;
+}
+.content{
+    background-color: hsl(0,0%,95%);
+    margin:10px;
+    padding: 10px;
+    width:300px;
+    border-radius:5px;
+    height:350px;
+}
+.text{
+    width:250px;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border:1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:hsl(0,0%,95%) ;
+
+}
+#email{
+    width:250px;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border:1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:hsl(0,0%,95%) ;
+
+}
+
+#password{
+    width:250px;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border:1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:hsl(0,0%,95%) ;
+
+}
+button{
+    width:300px;
+   padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border:1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:green ;
+    color:hsl(0,0%,95%);
+}
+#footer{font-size: 10px;
+ color: black;
+}
+
+#footer a{
+    color:red
+}
